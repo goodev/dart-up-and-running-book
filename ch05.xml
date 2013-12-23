@@ -4,7 +4,7 @@
 <chapter id="ch05">
   <?dbhtml stop-chunking?>
 
-  <title>Walkthrough: Dartiverse Search</title>
+  <title>项目演练： Dartiverse Search</title>
 
   <para>This chapter points out some of the useful and fun features of the
   Dart language and libraries that are used in Dartiverse Search, a

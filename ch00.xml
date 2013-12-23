@@ -4,161 +4,136 @@
 <preface id="preface">
   <?dbhtml stop-chunking?>
 
-  <title>Preface</title>
+  <title>序</title>
 
-  <para>You don’t need to be an expert web developer to build web apps. With
-  Dart, you can be productive as you build high-performance apps for the
-  modern web.</para>
+  <para>你并不需要成为编程高手就能开发 Web 应用。使用 Dart ,你可以
+      有非常高的生产效率来为当今的互联网开
+  发高性能应用。</para>
 
-  <para>Our aim for this book is to be a useful introduction to the Dart
-  language, libraries, and tools. Because this book is short and Dart is
-  young, you might also need to refer to the Dart website at <ulink
-  url="http://dartlang.org"></ulink>—both for details and for updates. For the
-  latest news, keep an eye on the <ulink
-  url="http://google.com/+dartlang">Dart page</ulink> on Google+.</para>
+  <para>这本书的目标是成为一本实用的Dart语言入门书，包含语言介绍、类库介绍、
+  工具介绍。由于本书很短，而且 Dart 也很年轻，你同样需要查阅 Dart 官方网站
+  <ulink url="http://www.dartlang.org"></ulink> 和 Dart 中文网站 <ulink url="http://www.dartlang.cc"></ulink>
+  —获取更多的细节以及后续更新。 
+  关注 Google+ <ulink url="http://google.com/+dartlang">Dart 网页</ulink> 和
+  <ulink url="http://weibo.com/cndart">Dart 中文微博</ulink>来
+  获取最新的新闻。</para>
 
-  <para>Another important website is this book’s <ulink
+  <para>另外一个重要的网站是本书的 <ulink
   url="https://github.com/dart-lang/dart-up-and-running-book">GitHub
-  project.</ulink> The text for this work is available there under the <ulink
+  代码库</ulink>， 本书使用 <ulink
   url="http://creativecommons.org/licenses/by-nc-nd/3.0/us/">Creative Commons
   Attribution-Noncommercial-No Derivative Works 3.0 United States
-  License.</ulink> Source code files for this book’s samples are also there,
-  in the <ulink
+  License</ulink> 许可发布。这本书中例子的源代码文件在 <ulink
   url="https://github.com/dart-lang/dart-up-and-running-book/tree/master/code"><literal>code/</literal>
-  subdirectory.</ulink> Downloading the sample code from GitHub is much easier
-  than copying it from the book.</para>
+  子目录中。</ulink> 直接下载源代码比从书中复制代码更加方便。</para>
 
-  <para>If you find an error in the sample code or text, please <ulink
-  url="https://github.com/dart-lang/dart-up-and-running-book/issues/new">create
-  an issue.</ulink></para>
+  <para>如果你发现本书内容或例子代码有错误，请在这里 <ulink
+  url="https://github.com/dart-lang/dart-up-and-running-book/issues/new">创建一个
+  问题</ulink>反馈</para>
 
   <sect1 id="preface-conventions">
-    <title>Conventions Used in This Book</title>
+    <title>本书中的一些约定用法</title>
 
-    <para>The following typographical conventions are used in this
-    book:</para>
+    <para>下面是本书印刷上的一些约定:</para>
 
     <variablelist>
       <varlistentry>
-        <term><emphasis>Italic</emphasis></term>
+        <term><emphasis>斜体</emphasis></term>
 
         <listitem>
-          <para>Indicates new terms, URLs, email addresses, filenames, and
-          file extensions.</para>
+          <para>标示新的术语, 网址, 电子邮件地址, 文件名, 以及文件扩展名</para>
         </listitem>
       </varlistentry>
 
       <varlistentry>
-        <term><literal moreinfo="none">Constant width</literal></term>
+        <term><literal moreinfo="none">等宽字体</literal></term>
 
         <listitem>
-          <para>Used for program listings, as well as within paragraphs to
-          refer to program elements such as variable or function names,
-          databases, data types, environment variables, statements, and
-          keywords.</para>
+          <para>程序列表，或者是在段落中出现的变量名、方法名、数据库、数据
+          类型、环境变量、语句或关键字</para>
         </listitem>
       </varlistentry>
 
       <varlistentry>
-        <term><userinput moreinfo="none">Constant width
-        bold</userinput></term>
+        <term><userinput moreinfo="none">等宽粗体字</userinput></term>
 
         <listitem>
-          <para>Shows commands or other text that should be typed literally by
-          the user.</para>
+          <para>指命令或者其他需要被用户逐字敲入的文本</para>
         </listitem>
       </varlistentry>
 
       <varlistentry>
-        <term><replaceable>Constant width italic</replaceable></term>
+        <term><replaceable>等宽斜体字</replaceable></term>
 
         <listitem>
-          <para>Shows text that should be replaced with user-supplied values
-          or by values determined by context.</para>
+          <para>指那些需要用户提供值来替换的值或者由运行环境决定的值。</para>
         </listitem>
       </varlistentry>
     </variablelist>
 
     <tip>
-      <para>This icon signifies a tip, suggestion, or general note.</para>
+      <para>这个图标表示一个小窍门或建议或一般的注释。</para>
     </tip>
 
     <caution>
-      <para>This icon indicates a warning or caution.</para>
+      <para>这个图标标示一个警告或警示。</para>
     </caution>
   </sect1>
 
   <sect1 id="preface-examples">
-    <title>Using Code Examples</title>
+    <title>使用例子中的代码</title>
 
-    <para>This book is here to help you get your job done. In general, you may
-    use the code in this book in your programs and documentation. You do not
-    need to contact us for permission unless you’re reproducing a significant
-    portion of the code. For example, writing a program that uses several
-    chunks of code from this book does not require permission. Selling or
-    distributing a CD-ROM of examples from O’Reilly books does require
-    permission. Answering a question by citing this book and quoting example
-    code does not require permission. Incorporating a significant amount of
-    example code from this book into your product’s documentation does require
-    permission.</para>
+    <para>这本书可以帮助你顺利的完成工作。通常，你可能会使用这本书中的代码用于
+    你的程序或文档。如果你不是直接复制完整的样例代码以做它用就不需要联系我们获
+    取使用许可。例如，在你的程序中使用本书中的代码是不需要许可的。出售或者发布
+    一个本书中样例库的 CD 是需要许可的。通过引用本书中的例子来回答问题不需要许
+    可。融合大量的本书案例代码到你的文档中是需要许可的。</para>
 
-    <para>We appreciate, but do not require, attribution. An attribution
-    usually includes the <phrase role="keep-together">title, author,</phrase>
-    publisher, and ISBN. For example: “<emphasis>Dart:Up and
-    Running</emphasis> by Kathy <phrase role="keep-together">Walrath
+    <para>如果你标明引用代码的出处，我们将十分感谢，但这不是必须的。出处信息通
+    常包括 <phrase role="keep-together">标题, 作者,</phrase>出版商, 和 ISBN。 
+    例如: “<emphasis>Dart:启动和运行</emphasis> by Kathy <phrase role="keep-together">Walrath
     and</phrase> Seth Ladd (O’Reilly). Copyright 2013 Kathy Walrath and Seth
     Ladd, 978-1-449-33089-7.”</para>
 
-    <para>If you feel your use of code examples falls outside fair use or the
-    permission given above, feel free to contact us at
+    <para>如果你觉得使用这些代码的方式需要一份许可，可以随时联系我们
     <email>permissions@oreilly.com</email>.</para>
   </sect1>
 
   <sect1 id="preface-safari">
-    <title>Safari® Books Online</title>
+    <title>Safari® 网上书店</title>
 
     <note role="safarienabled">
-      <para>Safari Books Online (<ulink role="orm:hideurl:ital"
-      url="http://my.safaribooksonline.com/?portal=oreilly">www.safaribooksonline.com</ulink>)
-      is an on-demand digital library that delivers expert <ulink
+      <para>Safari 网上书店 (<ulink role="orm:hideurl:ital" url="http://my.safaribooksonline.com/?portal=oreilly">www.safaribooksonline.com</ulink>)是一个数字图书馆，
+      用户可以点播专业的<ulink
       role="orm:hideurl"
-      url="http://www.safaribooksonline.com/content">content</ulink> in both
-      book and video form from the world’s leading authors in technology and
-      business.</para>
+      url="http://www.safaribooksonline.com/content">内容</ulink> 包括全球科技商业领域最顶尖作者的图书、视频。</para>
     </note>
 
-    <para>Technology professionals, software developers, web designers, and
-    business and creative professionals use Safari Books Online as their
-    primary resource for research, problem solving, learning, and
-    certification training.</para>
+    <para>科技专业人事，软件开发者，网站设计者，商业和创新人事使用Safari 网上书店作为他们主要的资源获取来源，用于研究，解决问题，学习，认证培
+    训等。</para>
 
-    <para>Safari Books Online offers a range of <ulink role="orm:hideurl"
-    url="http://www.safaribooksonline.com/subscriptions">product mixes</ulink>
-    and pricing programs for <ulink role="orm:hideurl"
-    url="http://www.safaribooksonline.com/organizations-teams">organizations</ulink>,
-    <ulink role="orm:hideurl"
-    url="http://www.safaribooksonline.com/government">government
-    agencies</ulink>, and <ulink role="orm:hideurl"
-    url="http://www.safaribooksonline.com/individuals">individuals</ulink>.
-    Subscribers have access to thousands of books, training videos, and
-    prepublication manuscripts in one fully searchable database from
-    publishers like O’Reilly Media, Prentice Hall Professional, Addison-Wesley
-    Professional, Microsoft Press, Sams, Que, Peachpit Press, Focal Press,
-    Cisco Press, John Wiley &amp; Sons, Syngress, Morgan Kaufmann, IBM
-    Redbooks, Packt, Adobe Press, FT Press, Apress, Manning, New Riders,
-    McGraw-Hill, Jones &amp; Bartlett, Course Technology, and dozens <ulink
+    <para>Safari 网上书店为<ulink role="orm:hideurl"
+    url="http://www.safaribooksonline.com/organizations-teams">组织</ulink>、<ulink role="orm:hideurl"
+    url="http://www.safaribooksonline.com/government">政府机构</ulink>、 <ulink role="orm:hideurl"
+    url="http://www.safaribooksonline.com/individuals">个人</ulink>提供了一系列的 <ulink role="orm:hideurl"
+    url="http://www.safaribooksonline.com/subscriptions">产品组合</ulink>
+    产品组合和定价。用户可以获得成千上万的书籍及培训视频或正式出版前的手稿，
+    并可在一个可搜索的数据库中查找包括O'Reilly媒体，Prentice Hall Professional，
+    Addison-Wesley Professional，微软出版社，Sams，Que，Peachpit Press，
+    Focal Press，Cisco Press，John Wiley &amp; Son，Syngress，摩根考夫曼，
+    IBM红皮书，Packt，Adobe Press，金融时报出版社，Apress，Manning，New Riders，
+    McGraw-Hill，Jones &amp; Bartlett，Course Technology等等<ulink
     role="orm:hideurl"
-    url="http://www.safaribooksonline.com/publishers">more</ulink>. For more
-    information about Safari Books Online, please visit us <ulink
+    url="http://www.safaribooksonline.com/publishers">更多</ulink>。有关Safari
+    网上书店的详细信息，请访问我们的<ulink
     role="orm:hideurl"
-    url="http://www.safaribooksonline.com/">online</ulink>.</para>
+    url="http://www.safaribooksonline.com/">网站</ulink>。</para>
   </sect1>
 
   <sect1 id="preface-contact">
-    <title>How to Contact Us</title>
+    <title>如何联系我们</title>
 
-    <para>Please address comments and questions concerning this book to the
-    publisher:</para>
+    <para>请将与这本书有关的评论或问题发送至如下出版商地址：</para>
 
     <simplelist type="vert">
       <member>O’Reilly Media, Inc.</member>
@@ -174,621 +149,544 @@
       <member>707-829-0104 (fax)</member>
     </simplelist>
 
-    <para>We have a web page for this book, where we list errata, examples,
-    and any additional information. You can access this page at <ulink
+    <para>我们为这本书建立了一个网页，包含错误信息、例子、和其他的额外的信息。
+    网址 <ulink
     url="http://oreil.ly/Dart_Up_and_Running"></ulink>.</para>
 
-    <para>To comment or ask technical questions about this book, send email to
+    <para>评论或者提问技术问题（关于这本书的），请发送电子邮件：
     <email>bookquestions@oreilly.com</email>.</para>
 
-    <para>For more information about our books, courses, conferences, and
-    news, see our website at <ulink
-    url="http://www.oreilly.com"></ulink>.</para>
+    <para>寻找更多的图书、课程、大会、新闻方面的信息，访问我们的网站 <ulink
+    url="http://www.oreilly.com"></ulink>。</para>
 
-    <para>Find us on Facebook: <ulink
+    <para>我们的 Facebook: <ulink
     url="http://facebook.com/oreilly"></ulink></para>
 
-    <para>Follow us on Twitter: <ulink
+    <para>我们的 Twitter: <ulink
     url="http://twitter.com/oreillymedia"></ulink></para>
 
-    <para>Watch us on YouTube: <ulink
+    <para>我们的 YouTube: <ulink
     url="http://www.youtube.com/oreillymedia"></ulink></para>
   </sect1>
 
   <sect1 id="preface-updates">
-    <title>Content Updates</title>
+    <title>内容更新</title>
 
-    <para>This section gives details about how the book has changed since its
-    first and second printings.</para>
+    <para>这部分详述了第一次和第二次印刷后的所有修改。</para>
 
     <sect2 id="preface-updates-v3">
-      <title>Changes After the Second Printing</title>
+      <title>第二次印刷后的修改</title>
 
-      <para>We've changed the text and examples to reflect these language
-      changes:</para>
+      <para>我们改变文字和例子以反应出 Dart 语言的相关修改：</para>
 
       <itemizedlist>
         <listitem>
-          <para>Instance variables can no longer be <literal>const</literal>.
-          Use <literal>static const</literal> variables instead.</para>
+          <para>实例变量不能是 <literal>const</literal> 的了。
+          取而代之的是  <literal>static const</literal> 。</para>
         </listitem>
 
         <listitem>
-          <para>The <literal>?</literal> operator for testing whether an
-          optional parameter has been set is no longer in the language.</para>
+          <para> <literal>?</literal> 操作符用来测试是否设置了一个可选参数的功能取消了。</para>
         </listitem>
 
         <listitem>
-          <para>Keys in map literals no longer need to be strings.</para>
+          <para>Map 的字面量定义中的 key 值不再强制是字符串类型的了。</para>
         </listitem>
 
         <listitem>
-          <para>Dart now has Symbols and symbol literals
-          (<literal>#<replaceable>identifier</replaceable></literal>): <xref
-          linkend="ch02-symbols" />.</para>
+          <para>Dart 现在拥有符号（Symbol）和符号字面量
+          (<literal>#<replaceable>标识符</replaceable></literal>): <xref
+          linkend="ch02-symbols" />。</para>
         </listitem>
 
         <listitem>
-          <para>Function equality testing is easier: <xref
+          <para>相等测试变得更容易了：<xref
           linkend="ch02-function-equality" />.</para>
         </listitem>
 
         <listitem>
-          <para>Bitwise operators have higher precedence than they used
-          to.</para>
+          <para>提升了按位操作符的优先级。</para>
         </listitem>
       </itemizedlist>
 
-      <para>We've also updated the content to reflect API changes. In
-      dart:core:</para>
+      <para>我们也更新了以下内容以反应 API 的变化。在 Dart：核心库中：</para>
 
       <itemizedlist>
         <listitem>
-          <para>Set’s <literal>isSubsetOf()</literal> method is gone. Instead,
-          use the Set <literal>containsAll()</literal> method. You can convert
-          any Iterable to a Set using <literal>toSet()</literal>.</para>
+          <para>Set 的 <literal>isSubsetOf()</literal> 方法不再使用了。 相取代的,
+          使用 Set 的 <literal>containsAll()</literal> 方法。 你可以使用 <literal>toSet()</literal> 把任何可迭代的类型转换成 Set。</para>
         </listitem>
 
         <listitem>
-          <para>The Collection class is gone, so we’ve changed the way we
-          talked about sets, lists, and maps in <xref
-          linkend="ch03-collections" />, and we talk more about
-          Iterable.</para>
+          <para>Collection 类不再使用了, 因此我们改变了 sets，lists，和 maps 
+          的功能，详见 <xref linkend="ch03-collections" />, 并且我们更多的关注 Iterable.</para>
         </listitem>
 
         <listitem>
-          <para>The functionality in the former dart:uri library is now in the
-          Uri class in dart:core. The top-level functions
+          <para>先前的 dart:uri 类库中的功能现在被整合到了 dart:核心类库的 
+          Uri 类中。 顶级函数
           <literal>encodeUri()</literal>,
           <literal>encodeUriComponent()</literal>,
-          <literal>decodeUri()</literal>, and
-          <literal>decodeUriComponent()</literal> are now static methods in
-          Uri named (respectively) <literal>encodeFull()</literal>,
+          <literal>decodeUri()</literal>, 
+          <literal>decodeUriComponent()</literal> 现在变成了各自对应的 Uri 类
+          的静态方法为：
+          <literal>encodeFull()</literal>,
           <literal>encodeComponent()</literal>,
-          <literal>decodeFull()</literal>, and
-          <literal>decodeComponent()</literal>. To create a Uri from a string,
-          you now use the static <literal>parse()</literal> method. Uri now
-          has a single constructor, which takes the arguments that the
-          <literal>Uri.fromComponents()</literal> constructor used to take.
-          Finally, the <literal>domain</literal> field is now named
-          <literal>host</literal>.</para>
+          <literal>decodeFull()</literal>, 
+          <literal>decodeComponent()</literal>. 要从字符串中创建 Uri，你需要使用静态的 <literal>parse()</literal> 方法。 Uri 类现在只有一个构造函数，
+          它依然拥有原来 
+          <literal>Uri.fromComponents()</literal> 构造函数同样的参数。
+          最后,  <literal>domain</literal> 域现在改名为<literal>host</literal>。</para>
         </listitem>
 
         <listitem>
-          <para>The @deprecated, @override, and @proxy annotations moved from
-          the meta package to dart:core.</para>
+          <para> @deprecated, @override, 和 @proxy 注释从 meta package 转移到了 dart:core 核心类库中。</para>
         </listitem>
       </itemizedlist>
 
-      <para>In dart:io:</para>
+      <para> dart:io: 类库：</para>
 
       <itemizedlist>
         <listitem>
-          <para>File’s <literal>openWrite()</literal> method now has no
-          required parameters but two optional named parameters. The
-          <literal>mode</literal> parameter has a default value of
-          <literal>FileMode.WRITE</literal>.</para>
+          <para>File 类的 <literal>openWrite()</literal> 方法现在不再必须要求参数了，但是仍然保留了两个可选参数。 
+          <literal>mode</literal> 参数有一个默认的值：
+          <literal>FileMode.WRITE</literal>。</para>
         </listitem>
 
         <listitem>
-          <para>File’s <literal>readAsString()</literal> and
-          <literal>readAsLines()</literal> methods no longer require a
-          parameter. Instead, they have an optional named parameter
-          (<literal>encoding</literal>), with a default value of
-          <literal>Encoding.UTF_8</literal>.</para>
+          <para>File 的 <literal>readAsString()</literal> 和
+          <literal>readAsLines()</literal> 方法不再必须需要一个参数。 相替代的, 他们拥有了一个可选的参数：
+          (<literal>encoding</literal>), 这个参数的默认值是
+          <literal>Encoding.UTF_8</literal></para>
         </listitem>
 
         <listitem>
-          <para>IOSink’s methods for writing data have changed. To write
-          string data, instead of <literal>addString()</literal> use
-          <literal>write()</literal>. The method for writing binary data was
-          temporarily renamed to <literal>writeBytes()</literal>, but reverted
-          back to <literal>add()</literal>.</para>
+          <para>IOSink 的写数据方法调整了。用<literal>write()</literal>取代了<literal>addString()</literal>来写字符串数据。前期临时命名为 <literal>writeBytes()</literal>的写二进制数据的方法, 改成了 <literal>add()</literal>.</para>
         </listitem>
       </itemizedlist>
 
-      <para>A new dart:convert library replaces dart:json and dart:uri:</para>
+      <para>新的 dart:convert 类库取代了 dart:json 和 dart:uri:</para>
 
       <itemizedlist>
         <listitem>
-          <para>Instead of a StringDecoder, use
-          <literal>UTF8.decoder</literal> to convert UTF-8 characters into a
-          Dart string.</para>
+          <para>取消了 StringDecoder, 而使用
+          <literal>UTF8.decoder</literal> 转换 UTF-8 字符为
+          Dart 字符。</para>
         </listitem>
 
         <listitem>
-          <para>Instead of a LineTransformer, use a LineSplitter object to
-          split a stream of strings into a stream of individual lines.</para>
+          <para>取消了 LineTransformer, 现在使用  LineSplitter 对象将一个字符串输入流分拆成每一行。</para>
         </listitem>
 
         <listitem>
-          <para>Where you used to use dart:json's top-level
-          <literal>parse()</literal> and <literal>stringify()</literal>
-          functions, use <literal>JSON.decode()</literal> and
-          <literal>JSON.encode()</literal>, respectively.</para>
+          <para>过去使用的 dart:json 顶级函数
+          <literal>parse()</literal> 和 <literal>stringify()</literal>
+          功能废弃了, 现在分别使用 <literal>JSON.decode()</literal> 和
+          <literal>JSON.encode()</literal>。</para>
         </listitem>
 
         <listitem>
-          <para>Where you used to use dart:uri's top-level
-          <literal>decodeUri()</literal> and <literal>encodeUri()</literal>
-          functions, use <literal>UTF8.decode()</literal> and
-          <literal>UTF8.encode()</literal>, respectively.</para>
+          <para>过去使用的 dart:uri 顶级函数
+          <literal>decodeUri()</literal> 和 <literal>encodeUri()</literal>
+          功能废弃了, 现在分别使用 <literal>UTF8.decode()</literal> 和
+          <literal>UTF8.encode()</literal>。</para>
         </listitem>
       </itemizedlist>
 
-      <para>Other API changes include:</para>
+      <para>其他的 API 改变:</para>
 
       <itemizedlist>
         <listitem>
-          <para>In dart:html, the <literal>query()</literal> and
-          <literal>queryAll()</literal> methods changed to
-          <literal>querySelector()</literal> and
-          <literal>querySelectorAll()</literal>, respectively.</para>
+          <para>在 dart:html 类库中, <literal>query()</literal> 和
+          <literal>queryAll()</literal> 方法分别改成了
+          <literal>querySelector()</literal> 和
+          <literal>querySelectorAll()</literal>。</para>
         </listitem>
 
         <listitem>
-          <para>The dart:crypto library moved out of the SDK (to <ulink
-          url="http://pub.dartlang.org/packages/crypto">http://pub.dartlang.org/packages/crypto</ulink>).</para>
+          <para>dart:crypto 类库从 SDK 中移除了 (详见 <ulink
+          url="http://pub.dartlang.org/packages/crypto">http://pub.dartlang.org/packages/crypto</ulink>)。</para>
         </listitem>
 
         <listitem>
-          <para>The AsyncError class was removed (from dart:async).</para>
+          <para> AsyncError class 被移除了 (从 dart:async 中)。</para>
         </listitem>
 
         <listitem>
-          <para>The dart:isolate library was refactored to have only core
-          primitives. We removed its coverage from the book but expect higher
-          level APIs to come along that make using isolates easier.</para>
+          <para> dart:isolate 类库被重构了， 现在只有核心的
+          primitives. 书中我们移除了它的大部分介绍内容，但是我们期待更高水平的 API 能够开发出来使隔离更容易</para>
         </listitem>
 
         <listitem>
-          <para>The main() function now takes an optional argument
-          (List&lt;String&gt;).</para>
+          <para> main() 方法现在拥有一个可选的参数
+          (List&lt;String&gt;)。</para>
         </listitem>
       </itemizedlist>
 
-      <para>The sections that talk about tools have changed, too:</para>
+      <para>讲解工具的章节也做了相应的调整：</para>
 
       <itemizedlist>
         <listitem>
-          <para>The dart_analyzer tool has been replaced by
-          dartanalyzer.</para>
+          <para>dart_analyzer 工具被
+          dartanalyzer 取代了</para>
         </listitem>
 
         <listitem>
-          <para>Command-line arguments for many tools have changed.</para>
+          <para>很多工具的命令行参数调整了。例如 dartdoc <literal>--pkg</literal> 命令行选项
+          变更为 <literal>--package-root</literal>。</para>
         </listitem>
 
         <listitem>
-          <para>The pub tool now has build and serve commands, which work with
-          transformers to convert your source files into their final
-          format.</para>
+          <para>pub 工具现在有 build 和 serve 命令集了, 它们可以让转换器将源代码文件转换成最终格式。</para>
         </listitem>
 
         <listitem>
-          <para>We fleshed out the dart2js docs.</para>
-        </listitem>
-
-        <listitem>
-          <para>We removed the dartdoc coverage from the book, since we expect
-          the interface to change significantly.</para>
+          <para>我们完善了 dart2js 文档。</para>
         </listitem>
       </itemizedlist>
 
-      <para>We also added new coverage of previously undocumented features and
-      tweaked existing coverage. In the language tour:</para>
+      <para>我们同样增加了以前无正式文件说明的特性的范围,并稍稍调整已有的范围。在语言的简介中：</para>
 
       <itemizedlist>
         <listitem>
-          <para>Added <xref linkend="ch02-mixins" />.</para>
+          <para>添加了 <xref linkend="ch02-mixins" />。</para>
         </listitem>
 
         <listitem>
-          <para>In <xref linkend="ch02-keywords" />, marked which keywords are
-          built-in identifiers and discussed how they differ from reserved
-          words.</para>
+          <para>在 <xref linkend="ch02-keywords" /> 中, 标记出哪些关键字是内建的标识符，并论述了他们与保留标识符的不同。</para>
         </listitem>
 
         <listitem>
-          <para>Added coverage of the + operator for strings.</para>
+          <para>增加了 + 操作符的功能，现在可以作用于字符串了。</para>
         </listitem>
 
         <listitem>
-          <para>Discussed using expressions (such as function calls) as
-          arguments to a non-default constructor.</para>
+          <para>论述了使用表达式（例如 function calls）作为非默认构造函数参
+          数的相关问题。</para>
         </listitem>
 
         <listitem>
-          <para>Added examples of using the @override and @proxy
-          annotations.</para>
+          <para>添加了一些关于 @override 和 @proxy 注释相关的例子。</para>
         </listitem>
 
         <listitem>
-          <para>Changed the doc comment example to match the latest
-          guidelines, and pointed to <ulink
-          url="https://www.dartlang.org/articles/doc-comment-guidelines/">Guidelines
-          for Dart Doc Comments.</ulink></para>
+          <para>修改了文档注释的例子，使他们符合最新的规则,并且指向了 <ulink
+          url="https://www.dartlang.cc/articles/doc-comment-guidelines/">Dart 文档注释指南。</ulink></para>
         </listitem>
       </itemizedlist>
 
-      <para>In the library tour:</para>
+      <para>在类库的概览中：</para>
 
       <itemizedlist>
         <listitem>
-          <para>Added <xref linkend="ch03-mirrors" />.</para>
+          <para>增加 <xref linkend="ch03-mirrors" />。</para>
         </listitem>
 
         <listitem>
-          <para>Added examples of parsing non-decimal numbers.</para>
+          <para>添加关于解析非十进制数字的例子。</para>
         </listitem>
 
         <listitem>
-          <para>Removed the incorrect <literal>new</literal> from the example
-          of using Future.wait().</para>
+          <para>在使用 Future.wait() 的例子中，错误使用 <literal>new</literal> 的部分移除了。</para>
         </listitem>
 
         <listitem>
-          <para>Removed coverage of Completer, which is no longer
-          recommended.</para>
+          <para>移除完成符（Completer）的章节，它不再被推荐了。</para>
         </listitem>
 
         <listitem>
-          <para>Added <xref linkend="ch03-streams" />.</para>
+          <para>添加 <xref linkend="ch03-streams" />。</para>
         </listitem>
       </itemizedlist>
 
-      <para>Throughout the book, we updated links to related topics.</para>
+      <para>我们更新了全书中所有相关主题的链接。</para>
     </sect2>
 
     <sect2 id="preface-updates-v2">
-      <title>Changes in the Second Printing: March 29, 2013</title>
+      <title>第二次印刷中的修改： 2013年3月29日</title>
 
-      <para>We’ve updated the content to reflect the following changes since
-      the first printing:</para>
+      <para>我们更新了相关内容以反应出以下第二次印刷中的修改：</para>
 
       <itemizedlist>
         <listitem>
-          <para>Using <literal>part of</literal> in additional library files
-          is now <emphasis>required</emphasis>, not optional.</para>
+          <para>现在必须在附加类库文件中使用 <literal>part of</literal> ，
+          而不再是可选的了。</para>
         </listitem>
 
         <listitem>
-          <para>In M2, several APIs changed:</para>
+          <para>在 M2 中，调整了一些 API ：</para>
 
           <itemizedlist>
             <listitem>
-              <para>In the dart:html library, the <literal>elements</literal>
-              property of Element changed to
-              <literal>children</literal>.</para>
+              <para>在 dart:html 类库中, Element 的 <literal>elements</literal>
+              属性改为了 <literal>children</literal>。</para>
             </listitem>
 
             <listitem>
-              <para>Names in dart:html changed to conform to Dart naming
-              standards. In particular, <literal>innerHTML</literal> became
-              <literal>innerHtml</literal>.</para>
+              <para> dart:html 类库中的名字做了调整，现在更加符合 Dart 命名规范了。 特别的, <literal>innerHTML</literal> 修改为
+              <literal>innerHtml</literal>。</para>
             </listitem>
 
             <listitem>
-              <para>The <literal>charCodes()</literal> method of String became
-              a getter, so we removed the parentheses from all references to
-              <literal>charCodes</literal>.</para>
+              <para>String 的<literal>charCodes()</literal> 方法修改成了一个 getter ，因此我们移除所有引用的圆括号，<literal>charCodes</literal>。</para>
             </listitem>
 
             <listitem>
-              <para>The <literal>readAsText()</literal> method of File became
-              <literal>readAsString()</literal>.</para>
+              <para>File 的 <literal>readAsText()</literal> 方法变成了
+              <literal>readAsString()</literal>。</para>
             </listitem>
 
             <listitem>
-              <para>Constructors for the Date class changed.</para>
+              <para>Date 类的构造函数做了调整。</para>
             </listitem>
 
             <listitem>
-              <para>NullPointerException no longer exists.</para>
+              <para>删除了 NullPointerException 。</para>
             </listitem>
 
             <listitem>
-              <para>RegExp no longer has a const constructor.</para>
+              <para>删除了 RegExp 的常量构造函数</para>
             </listitem>
 
             <listitem>
-              <para>The return type of StringBuffer’s <literal>add()</literal>
-              method changed to void. Code that used to chain calls to
-              <literal>add()</literal> should now use method cascades
-              instead.</para>
+              <para>StringBuffer 的 <literal>add()</literal> 方法的返回值类型修改为 void。
+              现在连续调用 add() 的代码现在可以使用 级联方式了。</para>
             </listitem>
           </itemizedlist>
         </listitem>
 
         <listitem>
-          <para>The recommended way for web apps to use
-          <literal>dart.js</literal> is now to have a local copy, preferably
-          one downloaded using the <literal>browser</literal> pub
-          package.</para>
+          <para>现在使用<literal>dart.js</literal>推荐的方式是生成一个本地的副本，更好的方式是下载使用<literal>browser</literal> pub 包。</para>
         </listitem>
 
         <listitem>
-          <para>Metadata support was added to the language. See <xref
-          linkend="ch02-metadata" />.</para>
+          <para>Dart 语言现在支持 Metadata 了。 请查看 <xref
+          linkend="ch02-metadata" />。</para>
         </listitem>
 
         <listitem>
-          <para>We added references to the <ulink
-          url="http://www.dartlang.org/articles/web-ui/">Web UI
-          package</ulink>, which provides a higher level, scalable approach to
-          creating UIs for web apps.</para>
+          <para>我们增加了<ulink
+          url="http://www.dartlang.cc/articles/web-ui/">Web UI
+          包</ulink> 的参考，这个包为创建 web 应用的 UI 界面提供
+          了一个高级的，可升级的方法。
+          </para>
         </listitem>
 
         <listitem>
-          <para>In M3, mixins were added to the language, enabling code re-use
-          between classes.</para>
+          <para>在 M3 中，mixins 被添加到了语言中，可以重用不同类中的代码。</para>
         </listitem>
 
         <listitem>
-          <para>The core libraries were greatly revised in M3 or shortly
-          afterward. Changes include:</para>
+          <para>在 M3 中核心库被很大程度的优化了。包括了一下的修改：</para>
 
           <itemizedlist>
             <listitem>
-              <para>Some methods changed to fields or getters. This meant we
-              had to remove the <literal>()</literal> after
-              <literal>hashCode</literal>, <literal>isEmpty</literal>, and
-              <literal>isNan</literal>. We also changed
-              <literal>getKeys()</literal> to <literal>keys</literal>, and
-              <literal>getValues()</literal> to
-              <literal>values</literal>.</para>
+              <para>一些方法被修改为域或者 getters。这意味着我们应该在<literal>hashCode</literal>,<literal>isEmpty</literal>, 和
+              <literal>isNan</literal>后面移除<literal>()</literal> 。我们同样将
+              <literal>getKeys()</literal> 改为 <literal>keys</literal>, 将
+              <literal>getValues()</literal> 改为
+              <literal>values</literal>。</para>
             </listitem>
 
             <listitem>
-              <para>The Iterable class was beefed up, affecting all
-              Collections such as Lists and Sets. The former Collection
-              methods <literal>filter()</literal> and <literal>map()</literal>
-              moved to Iterable, and the name of <literal>filter()</literal>
-              changed to <literal>where()</literal>. (<literal>map()</literal>
-              was briefly renamed to <literal>mappedBy()</literal>, but due to
-              public feedback that decision was reversed.) The
-              <literal>some()</literal> method changed to
-              <literal>any()</literal>. Many values returned by Iterables are
-              now lazily-filled Iterables; you can use
-              <literal>toList()</literal> or <literal>toSet()</literal> to
-              force evaluation. We recommend <emphasis>extending</emphasis>
-              Iterable rather than just implementing it, so you can take
-              advantage of added functionality. More details are in the
-              article <ulink
+              <para>Iterable 类得到了增强，所有的 Collections 都收到了影响，例如 
+              Lists 和 Sets。以前 Collection 中的方法<literal>filter()</literal> 和 <literal>map()</literal> 移到了 Iterable 中，并且<literal>filter()</literal>的名字改为<literal>where()</literal>.
+                (<literal>map()</literal>
+              暂时改为 <literal>mappedBy()</literal>,是由于社区反馈这个决定是对其是倒退发展。) 
+              <literal>some()</literal> 方法改为
+              <literal>any()</literal>。Iterables 返回的很多值现在是惰性填充Iterables；你可以使用<literal>toList()</literal> 或 <literal>toSet()</literal> 强制赋值。我们推荐<emphasis>继承 </emphasis>Iterable，而不是只是实现它，因此你可以从添加新功能中得益。更多的细节请查看文章  <ulink
               url="http://www.dartlang.org/articles/m3-whats-new/iterables.html">Iterables.</ulink></para>
             </listitem>
 
             <listitem>
-              <para>The Iterator interface changed from
-              <literal>next()</literal> and <literal>hasNext()</literal> to
-              <literal>current</literal> and
-              <literal>moveNext()</literal>.</para>
+              <para>Iterator 接口的
+              <literal>next()</literal> 和 <literal>hasNext()</literal> 改为
+              <literal>current</literal> 和
+              <literal>moveNext()</literal>。</para>
             </listitem>
 
             <listitem>
-              <para>The dart:json library no longer has a JSON class. Former
-              JSON static methods such as <literal>parse()</literal> and
-              <literal>stringify()</literal> are now top-level
-              functions.</para>
+              <para>JSON 类不再放在 dart:json 库中了。以前的
+              JSON 静态方法如 <literal>parse()</literal> 和
+              <literal>stringify()</literal> 现在便趁个了最顶层功能。</para>
             </listitem>
 
             <listitem>
-              <para>Date is now named DateTime, and the
-              <literal>fromString()</literal> constructor is now a static
-              method named <literal>parse()</literal>.</para>
+              <para>Date 类更名为 DateTime, 并且
+              <literal>fromString()</literal> 构造函数现在变成了一个静态方法，命名为 <literal>parse()</literal>。</para>
             </listitem>
 
             <listitem>
-              <para>Event-handler registration used to be
+              <para>Event-handler 过去的注册形式是
               <literal>.on.<replaceable>event</replaceable>.add()</literal>;
-              now it’s
+              现在改为
               <literal>.on<replaceable>Event</replaceable>.</literal><literal
-              role="keep-together">listen</literal>.</para>
+              role="keep-together">listen</literal>。</para>
             </listitem>
 
             <listitem>
-              <para>The dart:html HttpRequest <literal>get()</literal> method
-              was replaced by <literal>getString()</literal> and
-              <literal>request()</literal>, which return Future&lt;String&gt;
-              and Future&lt;HttpRequest&gt;, respectively.</para>
+              <para> dart:html 类库中 HttpRequest 类的 <literal>get()</literal> 方法
+              被 <literal>getString()</literal> 和
+              <literal>request()</literal> 取代了, 相应分别返回 Future&lt;String&gt;
+              和 Future&lt;HttpRequest&gt;。 </para>
             </listitem>
 
             <listitem>
-              <para>The dart:html Window <literal>setTimeout()</literal>
-              method is gone; instead, use <literal>Future.delayed()</literal>
-              or, if you know what you’re doing, a Timer.</para>
+              <para> dart:html Window  的<literal>setTimeout()</literal>
+              方法过时了; 对应的, 使用 <literal>Future.delayed()</literal>
+              或者如果你知道你正在做什么，使用一个 Timer。</para>
             </listitem>
 
             <listitem>
-              <para>Timer and Completer moved from dart:isolate to a new
-              library called dart:async. The Timer constructors now take a
-              Duration instead of an int.</para>
+              <para>Timer and Completer 从 dart:isolate 库中转移到一个新的名字叫做 dart:async 的库中。  Timer 构造函数现在使用一个 Duration 做参数，取代了 int.</para>
             </listitem>
 
             <listitem>
-              <para>The Future <literal>chain()</literal> and
-              <literal>handleException()</literal> methods are gone, replaced
-              by <literal>then()</literal> and
-              <literal>catchError()</literal>.</para>
+              <para>Future类的 <literal>chain()</literal> 和
+              <literal>handleException()</literal> 方法过时了, 现在使用 <literal>then()</literal> 和
+              <literal>catchError()</literal>。</para>
             </listitem>
 
             <listitem>
-              <para>The String <literal>splitChars()</literal> method is gone;
-              instead, use <literal>split()</literal> with an empty string
-              argument. String’s <literal>charCodes</literal> getter and
-              <literal>charCodeAt()</literal> method are gone; to get UTF-16
-              code units, use String’s <literal>codeUnits</literal> or
-              <literal>codeUnitAt()</literal> instead.</para>
+              <para> String 类的 <literal>splitChars()</literal> 方法过时了;
+              相应的, 使用一个空字符串参数的 <literal>split()</literal> 方法。 String 的<literal>charCodes</literal> getter 和
+              <literal>charCodeAt()</literal> 方法过时了; 如果要获取 UTF-16
+              code 单元, 现在使用 String 的 <literal>codeUnits</literal> 或者
+              <literal>codeUnitAt()</literal> 。</para>
             </listitem>
 
             <listitem>
-              <para>The StringBuffer <literal>add()</literal> and
-              <literal>addAll()</literal> methods were replaced by
-              <literal>write()</literal> and <literal>writeAll()</literal>,
-              respectively.</para>
+              <para> StringBuffer 类的<literal>add()</literal> 和
+              <literal>addAll()</literal> 方法分别被
+              <literal>write()</literal> 和 <literal>writeAll()</literal>取代了。</para>
             </listitem>
 
             <listitem>
-              <para>The dart:io library changed significantly after M3, as did
-              all I/O in Dart. I/O now centers around the dart:async library’s
-              Stream and Future classes, instead of callbacks. The InputStream
-              and OutputStream classes were replaced with classes implementing
+              <para> dart:io 库在 M3 后改变很大, 现在 Dart 所有的 I/O 功能都集中
+              在这个库中。 I/O 现在以 dart:async 库的
+              Stream 和 Future 类为核心, 取代了 callbacks。 InputStream
+              和 OutputStream 类被实现了
               <ulink
               url="http://api.dartlang.org/docs/releases/latest/dart_async/Stream.html">Stream</ulink>
-              and <ulink
-              url="http://api.dartlang.org/dart_io/IOSink.html">IOSink.</ulink>
-              A new <ulink
+              和 <ulink
+              url="http://api.dartlang.org/dart_io/IOSink.html">IOSink 的类所取代。</ulink>
+              一个新的 <ulink
               url="http://api.dartlang.org/dart_io/FileSystemEntity.html">FileSystemEntity</ulink>
-              class is the superclass of File and Directory. To create a new
-              HttpServer, you now use the static <literal>bind()</literal>
-              method. For more information, see the <ulink
-              url="http://news.dartlang.org/2013/02/io-library-now-uses-streams.html">announcement.</ulink></para>
+              类是 File 和 Directory 的父类。 如果要创建一个
+              HttpServer, 你现在需要使用 <literal>bind()</literal>
+              方法。更多相关信息请查看 <ulink
+              url="http://news.dartlang.org/2013/02/io-library-now-uses-streams.html">相关通告。</ulink></para>
             </listitem>
 
             <listitem>
-              <para>The most used dart:crypto methods for hashes changed from
-              <literal>update()</literal> and <literal>digest()</literal> to
-              <literal>add()</literal> and <literal>close()</literal>.</para>
+              <para> dart:crypto 库中许多关于 hashes 的方法都由
+              <literal>update()</literal> 和 <literal>digest()</literal> 改为了
+              <literal>add()</literal> 和 <literal>close()</literal>。</para>
             </listitem>
           </itemizedlist>
         </listitem>
       </itemizedlist>
 
-      <para>We corrected or clarified some text, such as:</para>
+      <para>我们修正或者改写了一些内容，例如:</para>
 
       <itemizedlist>
         <listitem>
-          <para>Bitwise operators are implemented in <emphasis
-          role="bold">int</emphasis>, not num.</para>
+          <para>按位操作符是用 <emphasis
+          role="bold">int</emphasis> 实现的, 而不是 num 。</para>
         </listitem>
 
         <listitem>
-          <para>The <literal>is</literal> and <literal>as</literal> examples
-          (in <xref linkend="ch02-op-type-test" />) aren’t completely
-          equivalent.</para>
+          <para> <literal>is</literal> 和 <literal>as</literal> 例子examples
+          (在 <xref linkend="ch02-op-type-test" /> 中) 并不是完全等价的。</para>
         </listitem>
       </itemizedlist>
 
-      <para>We also added sections for some pre-existing features:</para>
+      <para>我们添加了一些关于预先浏览的特性的内容：</para>
 
       <itemizedlist>
         <listitem>
-          <para>Keywords (see <xref linkend="ch02-keywords" />)</para>
+          <para>关键字 (请见 <xref linkend="ch02-keywords" />)</para>
         </listitem>
 
         <listitem>
-          <para>Lexical scope (see <xref
+          <para>Lexical scope (请见 <xref
           linkend="ch02-lexical-scope" />)</para>
         </listitem>
 
         <listitem>
-          <para>Function equality (see <xref
+          <para>Function equality (请见 <xref
           linkend="ch02-function-equality" />)</para>
         </listitem>
 
         <listitem>
-          <para>The dart_analyzer tool (see <xref
+          <para> dart_analyzer 工具 (请见 <xref
           linkend="ch04-tools-dart_analyzer" />)</para>
+        </listitem>
+
+        <listitem>
+          <para> dartdoc 工具 (请见 <xref
+          linkend="ch04-tools-dartdoc" />)</para>
         </listitem>
       </itemizedlist>
 
-      <para>Finally, <xref linkend="BrowserChart" /> now uses a more recent
-      benchmark and has the latest numbers.</para>
+      <para>最后, <xref linkend="BrowserChart" /> 现在使用一个最新的基准，并且用最新的数字。</para>
     </sect2>
   </sect1>
 
   <sect1 id="preface-acknowledgments">
-    <title>Acknowledgments</title>
+    <title>鸣谢</title>
 
-    <para>We’d like to thank the many people who contributed to this book. We
-    hope we haven’t forgotten anyone, but we probably have.</para>
+    <para>我们想要感谢所有为这本书做过贡献的人。尽管我们希望下面没有遗漏，但是那很可能会发生。</para>
 
-    <para>The following Dart engineers and managers gave us prompt, helpful
-    reviews and information for the sections corresponding to their areas of
-    responsibility: Mads Ager, Peter von der Ahé, Justin Fagnani, Dan Grove,
+    <para>以下 Dart 工程师和管理者给了我们很多指点及有用的反馈信息：
+    Mads Ager, Peter von der Ahé, Justin Fagnani, Dan Grove,
     Florian Loitsch, Sam McCall, Vijay Menon, John Messerly, Anton Muhin,
     Lasse R.H. Nielsen, Bob Nystrom, Ivan Posva, Jaime Wren, Matthias Hausner,
-    Keerti Parthasarathy, and Konstantin Scheglov.</para>
+    Keerti Parthasarathy, 和 Konstantin Scheglov.</para>
 
-    <para>We’d especially like to thank the people who reviewed even bigger
-    swaths of the book or contributed in other, large ways:</para>
+    <para>我们特别感谢那些反馈本书中很多错误信息及作出重大贡献的人：</para>
 
     <itemizedlist>
       <listitem>
-        <para>JJ Behrens, whose careful look at the first draft of the book
-        helped us catch errors and inconsistencies, as well as rework Chapter
-        5 to be more interesting, and less of a laundry list. He also created
-        a system for testing our samples.</para>
+        <para>JJ Behrens, 他细心审阅这本书的初稿，帮助我们修改了很多错误和矛盾，同时重新组织了第五章以使内容更有趣，并缩减了类目清单。另外他创建了一个系统来测试我们的例子。</para>
       </listitem>
 
       <listitem>
-        <para>Shailen Tuli, who helped test our examples although he didn’t
-        even work for Google.</para>
+        <para>Shailen Tuli, 尽管他不再谷歌，他却帮我们测试了很多例子。</para>
       </listitem>
 
       <listitem>
-        <para>Mary Campione, whose stream-of-consciousness review of the
-        entire book, performed while she was first learning the language,
-        helped us find and fix many confusing spots, as well as some errors.
-        Later she reviewed and updated our samples, and she implemented
-        continuous build testing for our samples on drone.io.</para>
+        <para>Mary Campione, 她以第一次学习这门语言的角度检查全书，帮助
+        我们发现并修正了许多混乱点和错误。后来她检查并更新了我们的例子,并且她持续的测试关于 drone.io. 中的例子。</para>
       </listitem>
 
       <listitem>
-        <para>Phil Quitslund, who did a big-picture review of the book and
-        gave us guidance and encouragement.</para>
+        <para>Phil Quitslund, 他对书中内容做了一个全面的检查,并给与我们指导和鼓励。</para>
       </listitem>
 
       <listitem>
-        <para>Kasper Lund, whose review caught issues that only someone with
-        his expert, comprehensive knowledge of the Dart language and libraries
-        could have found.</para>
+        <para>Kasper Lund, 他利用他的专业广泛的 Dart 语言知识帮助我们检查出了一些很难检查出的问题。</para>
       </listitem>
 
       <listitem>
-        <para>Gilad Bracha, the language spec writer whose reviews of the
-        language chapter were invaluable for getting language details right.
-        We couldn’t cover everything, so we look forward to his future work on
-        making all the corners of the language understandable to all Dart
-        programmers.</para>
+        <para>Gilad Bracha, 他是语言的特邀作者，他对每章的检查使得每个细节都
+        尽量准确无误，这是非常宝贵的，我们不可能关注到每个细节，因此我们继续
+        关注他的后期工作，使得这本书对于所有 Dart 学习者都更容易理解。</para>
       </listitem>
     </itemizedlist>
 
-    <para>Other Googlers helped, as well. Vivian Li, the head of Chrome
-    Developer Relations, supported our work on this book. Andres Ferrate, the
-    Google Press liaison to O’Reilly, helped simplify the process of getting
-    the book published. Myisha Harris gave us excellent legal advice.</para>
+    <para>其他的谷歌人也给与了很多帮助. Vivian Li, 首席 Chrome 发展关系设计师给了我们关于这本书的支持帮助。 Andres Ferrate, 谷歌与 O’Reilly 的联系人, 帮助我们简化了书的初版过程。 Myisha Harris 给了我们法律相关的咨询建议</para>
 
-    <para>The people at O’Reilly were extremely helpful. Meghan Blanchette,
-    our editor, kept everything going smoothly, monitoring our progress in the
-    nicest possible way. Christopher Hearse and Marisa LaFleur checked our
-    work and helped us make some last-minute fixes that improved the final
-    result. We’d also like to thank the good people who manage the author
-    workflow and make working on an O’Reilly book such a pleasure. We
-    personally worked with Sarah Schneider, Jessica Hosman, and Rachel
-    James.</para>
+    <para>O’Reilly 的工作人员也给予我们极大的帮助。Meghan Blanchette,
+    我们的编辑, 使得所有事情都进展的很顺利，监督我们的进度，使其最快最好的进行。 Christopher Hearse and Marisa LaFleur 检查了我们的工作，并帮助我们做了最后的修正，这提升了最终的效果。同时也要感谢那些帮助我们减少创作初版工作量，并使得创作一本 O’Reilly 书如此愉快的人们。 Sarah Schneider, Jessica Hosman, 和 Rachel
+    James 用了很多业余时间来帮助我们。</para>
 
-    <para>Finally, we thank Lars Bak and Kasper Lund for writing the foreword,
-    and most of all for creating Dart.</para>
+    <para>最后，我们感谢 Lars Bak 和 Kasper Lund 为本书写了序言, 
+    感谢那些创造 Dart 并支持 Dart发展的人们。</para>
+     <para>
+         本书中文版由 
+     <ulink  url="http://blog.chengyunfeng.com">云在千峰</ulink> 和 
+     <ulink  url="http://www.wangwei.biz/">wiki-w</ulink> 完成。
+         </para>
   </sect1>
 </preface>
